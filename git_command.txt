@@ -3,7 +3,8 @@ git status
 git add <ファイル名>
 git commit -m "<メッセージ>"
 git commit -v 【変更内容をエディタ上で確認できる】
-
+git diff
+git diff --staged
 
 
 
