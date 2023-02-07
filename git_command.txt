@@ -2,10 +2,17 @@
 git status
 git add <ファイル名>
 git commit -m "<メッセージ>"
-git commit -v 【変更内容をエディタ上で確認できる】
+git commit -v　【変更内容をエディタ上で確認できる】
 git diff
 git diff --staged
-
+git log
+git log --oneline
+git log -p <ファイル名>　【ファイルの現行差分を表示する】
+git log -n <コミット数>
+git rm <ファイル名>
+git rm -r <ディレクトリ名>
+git rm --cached <ファイル名>　【ローカルにファイルを残す】
+git mv <旧ファイル> <新ファイル>
 
 
 
