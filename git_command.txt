@@ -13,7 +13,10 @@ git rm <ファイル名>
 git rm -r <ディレクトリ名>
 git rm --cached <ファイル名>　【ローカルにファイルを残す】
 git mv <旧ファイル> <新ファイル>
-
+git remote add origin <GitHubのURL>　【originというショートカットでURLのリモートリポジトリを登録する】
+git push <リモート名> <ブランチ名>
+git push <origin> <master>　【git pushの例】
+git push -u <origin> <master>　【初回のみ-uのオプションをつけることで、次回以降git pushのみでよくなる】
 
 
 
